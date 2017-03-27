@@ -1,8 +1,9 @@
  @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto|Roboto+Condensed');
 body{
-      background: url(http://kingofwallpapers.com/weather-wallpaper/weather-wallpaper-023.jpg);
+      background: url(../images/weather.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      font-family: 'Roboto Condensed', sans-serif;
     }
   .weather-box{
     position: fixed;
