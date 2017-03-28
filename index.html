@@ -3,19 +3,7 @@
   <head>
   <title>Ajax & Json</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-  <style>
-    .weather-box{
-      position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
-      text-align: center; padding: 40px; border: 1px solid ;
-    }
-
-
-    
-  </style>
-
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
   <div class="weather-box">
@@ -23,9 +11,11 @@
     <h1 id="Country">Country</h1>
     <h4> <span id="temp">00</span><sup>0</sup>C</h4>
     <ul class="list-inline">
-      <li><input type="text" name="" class="form-control"></li>
+      <li><input type="text" name="typecity" 
+      placeholder="Type Your city Name" class="form-control">
+      </li>
       <li>
-      <button type="button" class="btn btn-danger"> See Your City Weather</button></li>
+      <button type="button" class="btn btn-custom"> See Your City Weather</button></li>
     </ul>
     
   </div>
